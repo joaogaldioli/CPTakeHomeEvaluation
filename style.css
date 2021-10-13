@@ -1,0 +1,25 @@
+.table-container {
+    min-width: 400px;
+    max-width: 1900px;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+}
+
+.table-container__table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-bottom: lightcoral;
+}
+
+.table-container__table thead tr {
+    background: lightseagreen;
+    color: rgb(255, 225, 225);
+}
+
+.table-container__table th,
+.table-container__table td {
+    text-align: left;
+    padding: 9px 18px;
+    font-weight: normal;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medication Datatable</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="medications.json"></script>
+        <script data-main="index.js" src="require.js"></script>
+        <input type="file" id="medication_file">
+    </head>
+    <body>
+        <div id="searchBar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div id="filterBox">
+            <select name="Categories" id="Categories">
+
+            </select>
+        </div>
+        <div class="table-container">
+            <table class="table-container__table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Name</th>
+                        <th>Dose</th>
+                        <th>Description</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody id="tuples">
+                    
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
